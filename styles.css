@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #070d1a;
+    color: #dbe7ff;
+}
+
+.hero {
+    min-height: 100vh;
+    background: #070d1a;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0 40px;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.hero-text h4 {
+    font-size: 20px;
+    margin-bottom: 55px;
+    color: #dbe7ff;
+}
+
+.hero-text h1 {
+    max-width: 680px;
+    font-size: clamp(48px, 5vw, 82px);
+    font-weight: 300;
+    line-height: 1.08;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    color: #dbe7ff;
+}
+
+.hero-text p {
+    max-width: 520px;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #c9d7f2;
+}
+
+.hero-image {
+    flex: 1;
+    background: #438bd4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 620px;
+    height: 82vh;
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+}
+
+.about {
+    min-height: 100vh;
+    background: #070d1a;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.about-container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 80px 60px;
+}
+
+.about-text {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.about-text h1 {
+    font-size: clamp(48px, 5vw, 78px);
+    font-weight: 300;
+    margin-bottom: 70px;
+    color: #dbe7ff;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 28px;
+    color: #dbe7ff;
+}
+
+.about-text p {
+    max-width: 620px;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #c9d7f2;
+}
+
+.about-text strong {
+    color: #dbe7ff;
+}
+
+.about-image {
+    flex: 1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 620px;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
