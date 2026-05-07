@@ -131,6 +131,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.about-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to left, rgba(11,18,32,0), #0b1220);
+  border-radius: 20px;
 }
 
 .about-image img {
