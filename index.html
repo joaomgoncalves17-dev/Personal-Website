@@ -7,34 +7,139 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="navbar">
-
-    </div>
+    <nav id="navbar">
+        <a href="#" class="nav-brand">João Gonçalves</a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    </nav>
     <section class="hero">
-        <div class="hero-text">
-            <h4>Welcome to My World</h4>
-            <h1>João Gonçalves </h1>
-            <h2>IT Support Specialist & Web Developer</h2>   
-            <p>Expert in IT solutions and web development projects</p>
-        </div>
-        <div class="hero-image">
-            <img src="./assets/homePage.png" alt="">
-        </div>
-    </section>
-    <section class="about">
-        <div class="about-text">
-            <h1>About Me</h1>
-            <h2>IT Support Specialist and Web Developer</h2>
-            <p>
-                I’m an IT Support Specialist with a strong focus on troubleshooting, user support, and maintaining reliable systems. I enjoy solving technical issues efficiently and ensuring users have a smooth and productive experience.<br>
-                Alongside my support work, I have front-end web development skills, which strengthen my understanding of how systems and applications function. This allows me to approach problems with a broader technical perspective and deliver more effective solutions.<br>
-                I’m currently studying for the CompTIA A+ certification to deepen my knowledge of hardware, networking, and system administration. My goal is to continue growing in IT support while gradually expanding my skills toward full-stack development, adding even more value in technical environments.
-            </p>
-        </div>
-        <div class="about-image">
-            <img src="./assets/profile.png" alt="">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h4>Welcome to My World</h4>
+                <h1>João Gonçalves</h1>
+                <h2>IT Support</h2>
+                <p>Aspiring IT Support Specialist, continuously expanding my technical knowledge through certifications and real-world learning.</p>
+                <div class="hero-actions">
+                    <a href="#certifications" class="hero-button">View Certifications</a>
+                    <a href="#about" class="hero-link">Learn More</a>
+                    <a href="Joao_Goncalves_CV.pdf" download class="hero-link">Download Curriculum Vitae</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/homePage.png" alt="Illustration representing IT support and technology">
+            </div>
         </div>
     </section>
-    
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h2>IT Support Specialist</h2>
+                <p>
+                    I am an aspiring IT professional with a strong interest in technical support, troubleshooting, and technology. Through certifications and hands-on learning, I have been developing the skills needed to diagnose issues, support users, and maintain reliable systems.<br>
+                    Alongside my IT studies, I have been building front-end web development skills, strengthening my understanding of how websites and applications work. This broader technical perspective helps me approach problems analytically and continuously improve my technical abilities.<br>
+                    I am currently studying for the CompTIA A+ certification to deepen my knowledge of hardware, networking, operating systems, and system administration. My goal is to begin my career in IT support while continuing to expand my development skills and grow into a well-rounded technology professional.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item">IT support, troubleshooting, and user care</div>
+                    <div class="highlight-item">Responsive front-end development with HTML, CSS, and JavaScript</div>
+                    <div class="highlight-item">CompTIA A+ preparation and system administration focus</div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="./assets/profile.png" alt="Photo of João Gonçalves">
+            </div>
+        </div>
+    </section>
+    <section class="certs" id="certifications">
+        <div id="left-panel">
+            <h1>Certifications Overview</h1>
+            <h2>IT & Web Development</h2>
+        </div>
+        <div id="cert-content">
+            <h2>IT Support</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Technical Support Fundamentals</h3>
+                        <p>Gain essential IT support skills, from troubleshooting hardware and software issues to providing effective customer assistance and technical solutions.</p>
+                        <a href="https://coursera.org/share/188baa51ee4423d08c548b44b7b486f4" target="_blank">Open Certificate</a>
+                    </div>
+                    <div class="card">
+                        <h3>The Bits and Bytes of Computer Networking</h3>
+                        <p>Learn the basics of computer networks, how data travels across the internet, and the key technologies that connect devices worldwide.</p>
+                        <a href="https://coursera.org/share/d6e872b962e0a86425b5c591dca756ab" target="_blank">Open Certificate</a>
+                    </div>
+                    <div class="card">
+                        <h3>CompTIA A+</h3>
+                        <p>Coming Soon...</p>
+                    </div>
+                </div>
+            <h2>Web Development</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Introduction to Front-End Development</h3>
+                        <p>Discover the basics of web development and learn how to build interactive, responsive websites using HTML, CSS, and JavaScript.</p>
+                        <a href="https://coursera.org/share/4157dd7b6e14663aaad989e539897a22" target="_blank">Open Certificate</a>
+                    </div>
+                    <div class="card">
+                        <h3>Programming with JavaScript</h3>
+                        <p>Learn JavaScript fundamentals and create dynamic, interactive web experiences using one of the world's most popular programming languages.</p>
+                        <a href="https://coursera.org/share/9fe5a64ff202650da7b7ec343c10443c" target="_blank">Open Certificate</a>
+                    </div>
+                    <div class="card">
+                        <h3>Version Control</h3>
+                        <p>Master Git and GitHub to track changes, manage code repositories, and collaborate efficiently in development workflows.</p>
+                        <a href="https://coursera.org/share/d1979d733b9c65c5a5700d029cec383b" target="_blank">Open Certificate</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="Skills" id="projects">
+        <h1>Projects</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Coming Soon</h3>
+                <p>This section is being built — check back soon for project write-ups and links.</p>
+            </div>
+        </div>
+    </section>
+    <section class="Skills" id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Technical Support</h3>
+                <p>Proficient in troubleshooting hardware and software issues, providing user support, and maintaining reliable IT systems.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <p>Skilled in front-end web development using HTML, CSS, and JavaScript to create responsive and interactive websites.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Customer Service</h3>
+                <p>Experienced in delivering excellent customer service by effectively communicating technical solutions and ensuring user satisfaction.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="contact" id="contact">
+        <div class="contact-inner">
+            <div>
+                <h1>Contact Me</h1>
+                <p>Feel free to reach out for collaborations, inquiries, or just to connect!</p>
+                <p class="contact-email">Email: joaomgoncalves17@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:joaomgoncalves17@gmail.com">Email Me</a>
+                <a href="https://github.com/SEU-USERNAME" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/SEU-PERFIL" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
